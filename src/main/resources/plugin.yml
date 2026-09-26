@@ -1,0 +1,8 @@
+name: EmoteSkinFixer
+version: 1.6.0
+main: me.levon.emoteskinfixer.EmoteSkinFixer
+api-version: 1.20
+description: Fixes emote NPC skin - intercepts PlayerInfoUpdate and injects correct SR skin
+authors: [levon]
+depend: [ProtocolLib]
+softdepend: [SkinsRestorer, ItemsAdder]
